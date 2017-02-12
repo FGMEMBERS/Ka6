@@ -82,6 +82,10 @@
   </action>
   </animation>
 
+  <effect>
+      <inherits-from>Effects/model-transparent</inherits-from>
+      <object-name>Face2.001</object-name>
+  </effect>
 </PropertyList>
 
 

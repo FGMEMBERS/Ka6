@@ -471,6 +471,10 @@
         </action>
     </animation>
   
+  <effect>
+      <inherits-from>Effects/model-transparent</inherits-from>
+      <object-name>shadow</object-name>
+  </effect>
 </PropertyList>
 
 
