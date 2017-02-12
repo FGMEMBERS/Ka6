@@ -16,11 +16,11 @@ adapted for Ka6 2016/17 D-ECHO Benedikt Wolf
         <description>Schleicher Ka6(CR) "Rhoensegler" (YASim)</description>
         <author>Benedikt Wolf (based on ASK13 by Patrice Poly)</author>
         <aircraft-version>201701</aircraft-version>
-        <status>beta</status>
+        <status>early production</status>
         <rating>
-        <FDM type="int">2</FDM>
+        <FDM type="int">3</FDM>
         <systems type="int">4</systems>
-        <cockpit type="int">3</cockpit>
+        <cockpit type="int">4</cockpit>
         <model type="int">4</model>
         </rating>
         
