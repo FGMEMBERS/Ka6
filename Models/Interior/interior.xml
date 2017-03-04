@@ -18,7 +18,7 @@
     <!--ASI-->
     <model>
         <name>asi</name>
-        <path>Instruments/winter-asi-ask21-kph/80mm_asi_6fms4.xml</path>
+        <path>Instruments/winter-asi-kph/80mm_asi_6fms4.xml</path>
         <offsets>
             <x-m>-2.545</x-m>
             <y-m>0.0</y-m>
@@ -430,7 +430,7 @@
             <binding>
                 <command>property-adjust</command>
                 <property>controls/flight/elevator-trim</property>
-                <factor>0.05</factor>
+                <factor>-0.05</factor>
                 <min>-1</min>
                 <max>1</max>
             </binding>
@@ -450,7 +450,7 @@
         <type>rotate</type>
         <object-name>trimlever</object-name>
         <property>controls/flight/elevator-trim</property>
-        <factor>30</factor>
+        <factor>-30</factor>
         <offset-deg>0</offset-deg>
         <center>
             <x-m>-2.15768</x-m>

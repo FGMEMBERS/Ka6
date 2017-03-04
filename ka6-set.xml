@@ -203,7 +203,7 @@ adapted for Ka6 2016/17 D-ECHO Benedikt Wolf
                     <from-model-idx type="int">0</from-model-idx>
                     
                     <x-offset-m archive="y">0</x-offset-m>
-                    <y-offset-m archive="y">0.12574</y-offset-m>
+                    <y-offset-m archive="y">0.035</y-offset-m>
                     <z-offset-m archive="y">-1.83035</z-offset-m>
                     <pitch-offset-deg>-10</pitch-offset-deg>
                     <default-field-of-view-deg>55.0</default-field-of-view-deg>
