@@ -108,10 +108,10 @@
     </gear>
     <!--Pushing/pulling the aircraft around:-->
     <!--TURN, this is done by tearing the wings around-->
-    <thruster x="1.08357"  y="8" z="1.3" vx="1" vy="-1" vz="0" thrust="100">
+    <thruster x="1.08357"  y="8" z="1.3" vx="1" vy="-1" vz="0" thrust="50">
     <control-input axis="/controls/flight/rudder2" control="THROTTLE" src0="-1" src1="1" dst0="-1" dst1="1"/>
     </thruster>
-    <thruster x="1.08357"  y="-8" z="1.3" vx="-1" vy="1" vz="0" thrust="100">
+    <thruster x="1.08357"  y="-8" z="1.3" vx="-1" vy="1" vz="0" thrust="50">
     <control-input axis="/controls/flight/rudder2" control="THROTTLE" src0="-1" src1="1" dst0="-1" dst1="1"/>
     </thruster>
     <!--Push/pull forward-->

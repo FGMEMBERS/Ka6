@@ -192,6 +192,20 @@ adapted for Ka6 2016/17 D-ECHO Benedikt Wolf
             <visibility archive="y">false</visibility>
         </panel>
 
+        <config>
+            <hide-winch-msg type="bool">false</hide-winch-msg>
+        </config>
+        
+        <!-- Save some properties when the simulator is shut down -->
+        <aircraft-data>
+            <path>/sim/model/window</path>
+            <path>/sim/model/window-shader</path>
+            <path>/sim/model/pilots-enabled</path>
+            <path>/sim/config/hide-winch-msg</path>
+            <path>/sim/weight[0]/weight-lb</path>
+            <path>/sim/weight[1]/weight-lb</path>
+        </aircraft-data>
+        
         <!-- position the pilot viewpoint and angle -->
     
         <view n="0">
@@ -291,6 +305,9 @@ adapted for Ka6 2016/17 D-ECHO Benedikt Wolf
                         <is-slave type="bool">false</is-slave>
                 </aerotow>
                 <hook-open type="bool">false</hook-open>
+            <winch>
+                <automatic-release-angle-deg type="float">90.0</automatic-release-angle-deg>
+            </winch>
         </hitches>
 
         <flight-recorder>
@@ -337,7 +354,7 @@ adapted for Ka6 2016/17 D-ECHO Benedikt Wolf
             </flight>
             <engines>
                 <engine>
-                <throttle>1.0</throttle>
+                    <throttle>1.0</throttle>
                 </engine>
             </engines>
             <winch>

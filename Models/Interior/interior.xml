@@ -474,6 +474,7 @@
     <name>canopyfull.int</name>
     <object-name>window.int</object-name>
     <object-name>window.cabrio.int</object-name>
+    <object-name>yawstring</object-name>
   </animation>
 
   <animation>
